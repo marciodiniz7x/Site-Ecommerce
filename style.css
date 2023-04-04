@@ -10,12 +10,92 @@
 }
 
 body{
-    font-family: "Rubik";
+    font-family: "Poppins";
+    background-image: url(img/bg01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
 }
 h1 {
     font-family: "NeoSans";
+    font-size: 24px;
 }
 
 .header {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    padding: 50px;
+    text-justify: left;
+}
+.header .text {
+    width: 400px;
+    text-justify: left;
+    margin-left: 0;
+}
+
+.header .text .descricao {
+    margin-top: 20px;
+}
+
+.faixa {
+    background-color: white;
+    width: 100vw;
+    height: 80px;
+
+}
+
+/* @media (min-width: 768px) {
+    .my-div {
+        float: left;
+    }
+} */
+
+.cuidados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    margin-top: -120px;
+    max-width: 1000px;
+    width: 100vw;
+    height: auto;
+}
+@media (max-width: 1000px) {
+    .cuidados {
+        width: 550px;
+    }
+}
+
+.cuidados div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    background-color: #F1F1F1;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+  
+}
+
+.cuidados .icons {
+    font-size: 50px;
+    padding-bottom: 15px;
     
+}
+
+.cuidados .bold-text {
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.cuidados p {
+    margin-top: 10px;
 }
