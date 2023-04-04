@@ -10,6 +10,7 @@
 }
 
 body{
+    overflow-x: hidden;
     font-family: "Poppins";
     background-image: url(img/bg02.png);
     background-size: cover;
@@ -24,24 +25,25 @@ h1 {
 
 .header {
     display: flex;
-    
+    justify-content: space-between;
     background-color: white;
+    gap: 20px;
     width: 100vw;
+    min-width: 550px;
     height: auto;
     padding: 50px;
     text-justify: left;
 }
 .header .text {
     width: 400px;
-    text-justify: left;
-    margin-left: 0;
+
 }
 
 .header .text .descricao {
     margin-top: 20px;
 }
 
-.sale {
+.header .sale {
     display: flex;
     align-items: center;
     text-align: center;
@@ -53,6 +55,7 @@ h1 {
 
 .faixa {
     background-color: white;
+    min-width: 550px;
     width: 100vw;
     height: 80px;
 
@@ -77,7 +80,10 @@ h1 {
 }
 @media (max-width: 1000px) {
     .cuidados {
-        width: 550px;
+        margin-top: -110px;
+        width: 450px;
+        padding: 1px;
+        gap:20px;
     }
 }
 
@@ -127,4 +133,10 @@ h1 {
     background-color: black;
     color: white;
     box-shadow: 1px 1px 10px 1px black;
+}
+
+@media (max-width: 1000px) {
+    .botao {
+        margin-top: 50px;
+    }
 }
