@@ -11,7 +11,7 @@
 
 body{
     font-family: "Poppins";
-    background-image: url(img/bg01.png);
+    background-image: url(img/bg02.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,4 +98,21 @@ h1 {
 
 .cuidados p {
     margin-top: 10px;
+}
+
+.botao {
+    background-color: #f1f1f1;
+    color: black;
+    display: flex;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 1px 1px 10px 1px white;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 10px 1px black;
 }
