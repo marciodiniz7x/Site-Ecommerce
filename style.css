@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NeoSans';
+    src: url('fonts/NeoSans-Black.otf') format('opentype');
+}
+
+body{
+    font-family: "Rubik";
+}
+h1 {
+    font-family: "NeoSans";
+}
+
+.header {
+    
+}
