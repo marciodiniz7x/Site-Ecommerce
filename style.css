@@ -14,7 +14,7 @@
     flex-direction: column;
     overflow-x: hidden;
     font-family: "Poppins";
-    background-image: url(img/bg02.png);
+    background-image: url(img/bg00.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,13 +155,13 @@ h1 {
     box-shadow: 1px 1px 10px 1px white;
     cursor: pointer;
     transition: 300ms;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .botao:hover {
-    background-color: black;
+    background-color: #81cf0b;
     color: white;
-    box-shadow: 1px 1px 10px 1px black;
+    box-shadow: 1px 1px 10px 1px #81cf0b;
 }
 
 @media (max-width: 1000px) {
@@ -171,7 +171,7 @@ h1 {
 }
 
 footer {
-    background-color: black;
+    background-color: #6fb406;
     width: 100vw;
     height: 100px;
     margin-bottom: 0;
