@@ -63,7 +63,9 @@ h1 {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
+    transition: 400ms;
 }
+
 .navbar .content {
 
     display: flex;
@@ -279,19 +281,20 @@ footer {
     width: 100vw;
     height: 100px;
     margin-bottom: 0;
+    margin-top: 50px;
 
 }
 
 .ofertas-iniciais {
 
+    visibility: hidden;
     border: 1px solid white;
     display: flex;
     justify-content: center;
 
-    margin-top: -30px;
+    margin-top: -50px;
     max-width: 1000px;
-    height: 700px;
+    height: 50px;
     width: 100vw;
  
-    z-index: 1;
 }
