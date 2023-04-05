@@ -42,9 +42,23 @@ h1 {
     box-shadow: 1px 50px 1px 1px white;
     
 }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    gap: 20px;
+    width: 1200px;
+    min-width: 550px;
+    height: auto;
+    padding: 50px;
+
+    box-shadow: 1px 50px 1px 1px white;
+    
+}
 .header .text {
     width: 400px;
-
+    margin-top: -20px;
 }
 
 .header .text .descricao {
@@ -60,6 +74,7 @@ h1 {
     width: 400px;
     height: 170px;
     min-height: 120px;
+    margin-top: -20px;
 }
 
 /* @media (min-width: 768px) {
@@ -75,7 +90,7 @@ h1 {
     flex-wrap: wrap;
     gap: 30px;
     padding: 50px;
-    margin-top: -120px;
+    margin-top: -150px;
     max-width: 1000px;
     width: 100vw;
     height: auto;
