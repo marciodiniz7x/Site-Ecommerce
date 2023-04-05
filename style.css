@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus {
+    outline: none;
+}
 
 @font-face {
     font-family: 'NeoSans';
@@ -29,13 +32,62 @@ h1 {
     font-size: 24px;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6fb406;
+    height: 0px;
+  
+    padding: 10px;
+    width: 100vw;
+}
+.navbar .menu-expand {
+    color: white;
+    display: none;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    color: white;
+}
+.currency {
+    width: 100px;
+    height: 30px;
+    border: 1px solid;
+    background-color:white;
+    box-shadow: 1px 1px 10px 1px #2d612b;
+    color: #2d612b;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar .content {
+
+    display: flex;
+    background-color: #6fb406;
+    color: white;
+    width: 600px;
+}
+
+.navbar .content span {
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.navbar .content span:hover {
+    cursor: pointer;
+    color: black;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    
     background-color: white;
     gap: 20px;
     width: 100vw;
-    min-width: 550px;
     height: auto;
     padding: 50px;
 
@@ -91,6 +143,9 @@ h1 {
         padding: 1px;
         gap:20px;
     }
+    .navbar {
+        padding: 30px;
+    }
     .header {
         box-shadow: 1px 80px 1px 1px white;
         flex-wrap: wrap;
@@ -99,6 +154,7 @@ h1 {
         margin-top: 0;
         height: 120px;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -115,12 +171,18 @@ h1 {
         font-size: 12px;
         padding: 15px;
     }
+    .navbar .content {
+        display: none;
+    }
+    .navbar .menu-expand {
+        display: block;
+    }
     .header {
         box-shadow: 1px 80px 1px 1px white;
-        flex-wrap: wrap;
+        flex-direction: column;
         margin-left: 50%;
         transform: translateX(-50%);
-        width: 90vw;
+        
     }
     .header .text {
         width: 350px;
