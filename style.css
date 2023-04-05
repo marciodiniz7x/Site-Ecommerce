@@ -9,7 +9,9 @@
     src: url('fonts/NeoSans-Black.otf') format('opentype');
 }
 
-body{
+.main-container{
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
     font-family: "Poppins";
     background-image: url(img/bg02.png);
@@ -17,6 +19,9 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
+}
+.main-container > * {
+    flex-grow: 1;
 }
 h1 {
     font-family: "NeoSans";
@@ -122,11 +127,15 @@ h1 {
     background-color: #f1f1f1;
     color: black;
     display: flex;
+    align-items: center;
     padding: 10px;
     width: 250px;
+    max-height: 50px;
+    min-width: 50px;
     box-shadow: 1px 1px 10px 1px white;
     cursor: pointer;
     transition: 300ms;
+    margin-bottom: 20px;
 }
 
 .botao:hover {
@@ -139,4 +148,11 @@ h1 {
     .botao {
         margin-top: 50px;
     }
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 0;
 }
