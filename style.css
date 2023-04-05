@@ -12,6 +12,7 @@
     src: url('fonts/NeoSans-Black.otf') format('opentype');
 }
 
+
 .main-container{
     display: flex;
     flex-direction: column;
@@ -228,7 +229,7 @@ h1 {
     font-size: 13px;
     padding: 20px;
     background-color: #F1F1F1;
-
+    color: #303030;
     width: 200px;
     height: 200px;
   
@@ -271,7 +272,7 @@ h1 {
 .botao:hover {
 
     background-color: #f1f1f1;
-    color: black;
+    color: #303030;
     box-shadow: 1px 1px 10px 1px white;
    
 }
@@ -297,11 +298,14 @@ h1 {
 }
 
 footer {
-    background-color: #6fb406;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
     width: 100vw;
-    height: 100px;
+    padding: 50px;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 10px;
 
 }
 
@@ -310,13 +314,86 @@ footer {
     border: 1px solid white;
     display: flex;
     justify-content: space-between;
-
-    margin-top: 20px;
+    padding: 20px;
+    
     max-width: 1000px;
-    height: 50px;
+
     width: 100vw;
 }
 
-.infos .info-products {
+.infos div {
 
+    width: 300px;
+    color: white;
 }
+
+.info .info-title {
+    font-weight: 600;
+    
+}
+
+.info section {
+    margin-top: 10px;
+}
+
+.info-itens p {
+    font-weight: 300;
+    line-height: 2em;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.info-itens p:hover {
+    color: #81cf0b;
+}
+
+.info-itens a {
+  
+    color: white;
+    text-decoration: none;
+    width: 1em;
+}
+
+.paysocial {
+    display: flex;
+    flex-direction: column;
+}
+
+.paysocial .social {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+.paysocial .social div {
+    
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.paysocial .social div img {
+
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Parte Inferior */
+.privacidade {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+footer .logo-bot {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    color: white;
+    background-image: url(img/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
