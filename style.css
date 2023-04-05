@@ -27,6 +27,9 @@
 .main-container > * {
     flex-grow: 1;
 }
+.favicon {
+    border: 1px solid black;
+}
 h1 {
     font-family: "NeoSans";
     font-size: 24px;
@@ -49,8 +52,11 @@ h1 {
 .logo {
     width: 50px;
     height: 50px;
-    border: 1px solid;
+    min-width: 50px;
     color: white;
+    background-image: url(img/logo.png);
+    background-size: cover;
+    background-position: center;
 }
 .currency {
     width: 100px;
@@ -222,7 +228,7 @@ h1 {
     font-size: 13px;
     padding: 20px;
     background-color: #F1F1F1;
- 
+
     width: 200px;
     height: 200px;
   
@@ -276,15 +282,6 @@ h1 {
     }
 }
 
-footer {
-    background-color: #6fb406;
-    width: 100vw;
-    height: 100px;
-    margin-bottom: 0;
-    margin-top: 50px;
-
-}
-
 .ofertas-iniciais {
 
     visibility: hidden;
@@ -297,4 +294,29 @@ footer {
     height: 50px;
     width: 100vw;
  
+}
+
+footer {
+    background-color: #6fb406;
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+}
+
+.infos {
+
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    max-width: 1000px;
+    height: 50px;
+    width: 100vw;
+}
+
+.infos .info-products {
+
 }
