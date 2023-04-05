@@ -144,24 +144,29 @@ h1 {
 }
 
 .botao {
-    background-color: #f1f1f1;
-    color: black;
+    
     display: flex;
     align-items: center;
     padding: 10px;
     width: 250px;
     max-height: 50px;
     min-width: 50px;
-    box-shadow: 1px 1px 10px 1px white;
+    
     cursor: pointer;
     transition: 300ms;
     margin-bottom: 100px;
-}
-
-.botao:hover {
     background-color: #81cf0b;
     color: white;
     box-shadow: 1px 1px 10px 1px #81cf0b;
+    
+}
+
+.botao:hover {
+
+    background-color: #f1f1f1;
+    color: black;
+    box-shadow: 1px 1px 10px 1px white;
+   
 }
 
 @media (max-width: 1000px) {
