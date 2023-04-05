@@ -138,7 +138,7 @@ h1 {
     flex-wrap: wrap;
     gap: 30px;
     padding: 50px;
-    margin-top: -100px;
+    margin-top: -50px;
     max-width: 1000px;
     width: 100vw;
     height: auto;
@@ -310,20 +310,22 @@ footer {
 }
 
 .infos {
-
-    border: 1px solid white;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    
-    max-width: 1000px;
-
+    max-width: 800px;
     width: 100vw;
 }
 
 .infos div {
 
-    width: 300px;
+    width: 200px;
+    color: white;
+}
+.infos span {
+
+    min-width: 200px;
+    width: 200px;
     color: white;
 }
 
@@ -355,6 +357,7 @@ footer {
 }
 
 .paysocial {
+
     display: flex;
     flex-direction: column;
 }
@@ -377,6 +380,38 @@ footer {
     height: 30px;
 }
 
+@media (max-width: 1000px) {
+    .infos {
+        flex-wrap: wrap;
+        width: 450px;
+    }
+
+    .infos .social {
+
+        margin-top: 20px;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .infos {
+        padding: 0px;
+        gap: 0;
+        width: 380px;
+        
+    }
+
+    .infos .info {
+
+        min-width: 100px;
+        width: 180px;
+    }
+
+    .cartoes {
+        margin-top: 30px;
+    }
+}
+
 
 /* Parte Inferior */
 .privacidade {
@@ -396,4 +431,17 @@ footer .logo-bot {
     background-size: cover;
     background-position: center;
 }
+
+
+.cards {
+
+    display: flex;
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cartoes {
+    width: 200px;
+}
+
 
