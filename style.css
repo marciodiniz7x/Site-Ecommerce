@@ -193,7 +193,9 @@ h1 {
         width: 350px;
         height: 120px;
     }
- 
+    .logo {
+        margin-left: 80px;
+    }
 }
 
 .cuidados div {
