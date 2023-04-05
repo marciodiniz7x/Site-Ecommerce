@@ -58,7 +58,8 @@ h1 {
     border: 1px solid black;
     min-width: 200px;
     width: 400px;
-    
+    height: 170px;
+    min-height: 120px;
 }
 
 /* @media (min-width: 768px) {
@@ -92,6 +93,10 @@ h1 {
         box-shadow: 1px 80px 1px 1px white;
         flex-wrap: wrap;
     }
+    .header .sale {
+
+        height: 120px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -117,9 +122,11 @@ h1 {
     }
     .header .text {
         width: 350px;
+        
     }
     .header .sale {
         width: 350px;
+        height: 120px;
     }
  
 }
