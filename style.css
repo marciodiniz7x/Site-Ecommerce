@@ -55,7 +55,7 @@ h1 {
     border: 1px solid black;
     min-width: 200px;
     width: 200px;
-    height: 200px;
+    
 }
 
 .faixa {
@@ -63,6 +63,7 @@ h1 {
     min-width: 550px;
     width: 100vw;
     height: 80px;
+    margin-top: -2px;
 
 }
 
@@ -73,6 +74,7 @@ h1 {
 } */
 
 .cuidados {
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -92,7 +94,25 @@ h1 {
     }
 }
 
+@media (max-width: 600px) {
+    .cuidados {
+        margin-top: -110px;
+        width: 350px;
+        padding: 1px;
+        gap: 20px;
+    }
+    .cuidados .div {
+        width: 150px;
+        height: 150px;
+        
+        font-size: 11px;
+        padding: 10px;
+    }
+ 
+}
+
 .cuidados div {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +121,7 @@ h1 {
     font-size: 13px;
     padding: 20px;
     background-color: #F1F1F1;
-    min-width: 200px;
+ 
     width: 200px;
     height: 200px;
   
