@@ -43,19 +43,6 @@ h1 {
     
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    gap: 20px;
-    width: 1200px;
-    min-width: 550px;
-    height: auto;
-    padding: 50px;
-
-    box-shadow: 1px 50px 1px 1px white;
-    
-}
 .header .text {
     width: 400px;
     margin-top: -20px;
@@ -109,7 +96,7 @@ h1 {
         flex-wrap: wrap;
     }
     .header .sale {
-
+        margin-top: 0;
         height: 120px;
     }
 }
@@ -140,6 +127,7 @@ h1 {
         
     }
     .header .sale {
+        margin-top: 0;
         width: 350px;
         height: 120px;
     }
