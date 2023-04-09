@@ -1,3 +1,3 @@
 function aoInicio() {
-    window.location = "home.php";
+    window.location = "pages/home.html";
 }
